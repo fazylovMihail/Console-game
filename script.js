@@ -21,3 +21,7 @@ while(attamtes>0){
         console.log('У вас осталось', attamtes, 'попытки!')
     }
 }
+
+if(attamtes<=0){
+    console.log('Вы проиграли!')
+}
